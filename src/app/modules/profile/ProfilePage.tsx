@@ -9,8 +9,8 @@ import {ProfileHeader} from './ProfileHeader'
 
 const profileBreadCrumbs: Array<PageLink> = [
   {
-    title: 'Profile',
-    path: '/crafted/pages/profile/overview',
+    title: 'dashboard',
+    path: '/dashboard/overview',
     isSeparator: false,
     isActive: false,
   },
@@ -77,7 +77,7 @@ const ProfilePage = () => (
           </>
         }
       />
-      <Route index element={<Navigate to='/crafted/pages/profile/overview' />} />
+      <Route index element={<Navigate to='/dashboard/profile/overview' />} />
     </Route>
   </Routes>
 )

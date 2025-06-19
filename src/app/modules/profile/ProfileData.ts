@@ -3,12 +3,12 @@ import {PageLink} from '../../../_metronic/layout/core'
 export const profileSubmenu: Array<PageLink> = [
   {
     title: 'Overview',
-    path: '/crafted/pages/profile/overview',
+    path: '/dashboard/overview',
     isActive: true,
   },
   {
     title: 'Separator',
-    path: '/crafted/pages/profile/overview',
+    path: '/dashboard/overview',
     isActive: true,
     isSeparator: true,
   },

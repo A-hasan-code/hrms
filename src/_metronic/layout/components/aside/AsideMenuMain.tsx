@@ -164,14 +164,7 @@ export function AsideMenuMain() {
         bsTitle='User management'
         className='py-3'
       />
-      <AsideMenuItem
-        outside={true}
-        to={import.meta.env.VITE_APP_PREVIEW_DOCS_URL + '/changelog'}
-        title='User management'
-        fontIcon='bi-card-text'
-        bsTitle={`Changelog ${import.meta.env.VITE_APP_VERSION}`}
-        className='py-3'
-      />
+   
     </>
   )
 }

@@ -35,10 +35,10 @@ export function HeaderWrapper() {
 
         {/* begin::Mobile logo */}
         <div className='d-flex align-items-center flex-grow-1 flex-lg-grow-0'>
-          <Link to='/dashboard' className='d-lg-none'>
+          <Link to='/dashboard/overview' className='d-lg-none'>
             <img
               alt='Logo'
-              src={toAbsoluteUrl('media/logos/demo4-mobile.svg')}
+              src={toAbsoluteUrl('media/logos/xortslogix.png')}
               className='h-30px'
             />
           </Link>

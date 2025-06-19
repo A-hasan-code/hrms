@@ -13,16 +13,16 @@ const Footer: FC = () => {
         <div className='text-gray-900 order-2 order-md-1'>
           <span className='text-gray-500 fw-bold me-1'>Created by</span>
           <a
-            href='https://keenthemes.com'
+            href=''
             target='_blank'
             className='text-muted text-hover-primary fw-bold me-2 fs-6'
           >
-            Keenthemes
+          Ali_hasan
           </a>
         </div>
         {/* end::Copyright */}
 
-        {/* begin::Menu */}
+        {/* begin::Menu 
         <ul className='menu menu-gray-600 menu-hover-primary fw-bold order-1'>
           <li className='menu-item'>
             <a href='#' className='menu-link px-2'>
@@ -39,8 +39,8 @@ const Footer: FC = () => {
               Purchase
             </a>
           </li>
-        </ul>
-        {/* end::Nav */}
+        </ul>*/}
+        
       </div>
       {/* end::Container */}
     </div>
